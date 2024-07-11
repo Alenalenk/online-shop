@@ -26,5 +26,7 @@ Link to the mockup: [MOCKUP](https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH
 
 ![image](https://github.com/Alenalenk/online-store/assets/113938017/380de4f7-a364-4ccb-9268-bea168c5d503)
 
+The products in the shopping cart and the favourite list are stored in localeStorage
+
 5) product page: slider for image, breadcrumb navigation and ability to choose another color and capacity 
 ![image](https://github.com/Alenalenk/online-store/assets/113938017/b1c5cf89-0012-4e1e-a036-cc49332ba47c)
