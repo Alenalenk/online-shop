@@ -1,21 +1,21 @@
-import React from 'react';
-import './App.scss';
+import { Outlet } from 'react-router-dom';
+import { Header } from './modules/shared/Header';
+import './styles/App.scss';
+import { Footer } from './modules/shared/Footer';
+import { useContext } from 'react';
+import { ProductContext } from './modules/shared/Context/Context';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const { path } = useContext(ProductContext);
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
-
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="app">
+      <Header />
+
+      <Outlet />
+
+      {path !== '/menu' && <Footer />}
+      <h1 hidden>Product Catalog</h1>
     </div>
   );
 };
