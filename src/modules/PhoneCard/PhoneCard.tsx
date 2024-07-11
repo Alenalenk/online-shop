@@ -29,7 +29,7 @@ export const PhoneCard = () => {
   }, [itemId]);
 
   if (!good) {
-    return;
+    return null;
   }
 
   return (

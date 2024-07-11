@@ -29,7 +29,7 @@ export const AccessoriesCard = () => {
   }, [itemId]);
 
   if (!good) {
-    return;
+    return null;
   }
 
   return (

@@ -20,7 +20,10 @@ export const Breadcrumps = () => {
       )}
       {productId && (
         <p className="breadcrups__id">
-          {productId[0].toUpperCase() + productId.slice(1)}
+          {productId
+            .split('-')
+            .map(item => item[0].toUpperCase() + item.slice(1))
+            .join(' ')}
         </p>
       )}
     </div>
