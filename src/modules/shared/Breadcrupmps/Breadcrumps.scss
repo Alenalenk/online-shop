@@ -35,5 +35,8 @@
   & :last-child {
     color: #75767F;
     cursor: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
