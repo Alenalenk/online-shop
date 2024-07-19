@@ -1,32 +1,40 @@
-# Online store
+# Mobile Device E-Commerce Store
 
+## A brief description of the project
 
-Technologies: React, React Router, TypeScript, SCSS
+This project is an e-commerce web application for browsing and purchasing mobile devices. The store offers a wide range of products with features like product sliders, breadcrumb navigation, search-based filtering, product detail views, pagination, and shopping cart management. Users can also add or remove items from their favorites list, with all cart and favorite data stored in local storage for persistence.
 
 Link to the preview: [DEMO LINK](https://alenalenk.github.io/online-store/)
 
-Link to the mockup: [MOCKUP](https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark?node-id=0-1&t=dcAhM99E7hFo35GR-0)
+Link to the design: [DESIGN](https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark?node-id=0-1&t=dcAhM99E7hFo35GR-0)
 
+## Technologies that were used
 
-1) slider for main section on the Home Page: 
+- **React**: For building the user interface.
+- **React Router**: For handling routing and navigation.
+- **Context API**: For state management across the application.
+- **TypeScript**: For type safety and improved code quality.
 
-![image](https://github.com/Alenalenk/online-store/assets/113938017/9d59438b-417b-4f92-b9fa-c649ee415aa1)
+## Features
 
-2) slider for products on the Home Page: 
+- **Product Sliders**: Displaying featured products on the home page.
+- **Breadcrumbs**: Providing navigation aids to enhance user experience.
+- **Search-Based Filtering**: Filtering products based on search queries in the URL.
+- **Product Detail Views**: Viewing detailed information about each product with options to select different colors and navigate to other products.
+- **Pagination**: Navigating through product listings with pagination controls.
+- **Shopping Cart Management**: Adding and removing items from the shopping cart and favorites list.
+- **Local Storage Persistence**: Storing cart and favorite items in local storage to retain user selections between sessions.
 
-![image](https://github.com/Alenalenk/online-store/assets/113938017/388533a4-f836-4690-8c53-4ad22d0b4829)
+## To launch the project locally, follow these steps:
 
-3) product filter and pagination for catalog pages: 
+1. **Clone the repository**:<br>
+   git clone https://github.com/Alenalenk/game-2048.git<br>
+   cd game-2048<br>
+   
+2. **Install the dependencies**:<br>
+  If you are using NPM: npm install<br>
+  If you are using Yarn: yarn install<br>
 
-![image](https://github.com/Alenalenk/online-store/assets/113938017/1107ec6e-198d-4c17-9d40-81ab831967f7)
-
-4) adding and removing products to the cart and favourite list: 
-
-![image](https://github.com/Alenalenk/online-store/assets/113938017/0473459d-8d90-41d2-ab48-aa86bbbed761)
-
-![image](https://github.com/Alenalenk/online-store/assets/113938017/380de4f7-a364-4ccb-9268-bea168c5d503)
-
-The products in the shopping cart and the favourite list are stored in localeStorage
-
-5) product page: slider for image, breadcrumb navigation and ability to choose another color and capacity 
-![image](https://github.com/Alenalenk/online-store/assets/113938017/b1c5cf89-0012-4e1e-a036-cc49332ba47c)
+4. **Start the development server**: <br>
+  If you are using NPM: npm start<br>
+  If you are using Yarn: yarn start<br>
