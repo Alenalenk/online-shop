@@ -28,8 +28,8 @@ Link to the design: [DESIGN](https://www.figma.com/design/BUusqCIMAWALqfBahnyIiH
 ## To launch the project locally, follow these steps:
 
 1. **Clone the repository**:<br>
-   git clone https://github.com/Alenalenk/game-2048.git<br>
-   cd game-2048<br>
+   git clone https://github.com/Alenalenk/online-store.git<br>
+   cd online-store<br>
    
 2. **Install the dependencies**:<br>
   If you are using NPM: npm install<br>
